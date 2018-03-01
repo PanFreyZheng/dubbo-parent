@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>dubbo-parent</artifactId>
+        <groupId>com</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+
+    <!--声明项目描述遵循哪一个POM模型版本-->
+    <modelVersion>4.0.0</modelVersion>
+
+    <!--项目的唯一标识符(同时也是构建生成路径com/zpf)-->
+    <groupId>com.zpf</groupId>
+    <!--构建标识符-->
+    <artifactId>zookeeper</artifactId>
+    <!--项目产生的构建类型,e.g:jar,war,ear,pom-->
+    <packaging>jar</packaging>
+    <version>1.0-SNAPSHOT</version>
+
+    <!--项目的名称,Maven产生文档用-->
+    <name>zookeeper watch demo</name>
+    <!--项目主页的URL,Maven产生文档用-->
+    <url>http://maven.apache.org/</url>
+
+    <properties>
+        <curator.version>4.0.1</curator.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.apache.zookeeper</groupId>
+            <artifactId>zookeeper</artifactId>
+            <version>3.4.6</version>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+        </dependency>
+
+        <!-- curator监控zookeeper -->
+        <dependency>
+            <groupId>org.apache.curator</groupId>
+            <artifactId>curator-recipes</artifactId>
+            <version>${curator.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.curator</groupId>
+            <artifactId>curator-framework</artifactId>
+            <version>${curator.version}</version>
+        </dependency>
+    </dependencies>
+</project>
