@@ -101,7 +101,6 @@ public class getData
             System.out.println("开始删除根节点");
             zk.delete("/IDEA_TEST",-1);
             System.out.println("修改根节点成功");
-
             System.out.println("===========================");
         } catch (IOException | KeeperException | InterruptedException e) {
             e.printStackTrace();
