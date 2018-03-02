@@ -17,7 +17,7 @@
       <module name="dubbo-interfenct" target="1.5" />
       <module name="dubbo-parent" target="1.5" />
       <module name="dubbo-service" target="1.5" />
-      <module name="zookeeper" target="1.5" />
+      <module name="zookeeper" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>

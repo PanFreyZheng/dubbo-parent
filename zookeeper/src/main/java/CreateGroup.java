@@ -10,6 +10,7 @@ import org.apache.zookeeper.*;
 
 import java.io.IOException;
 import java.util.concurrent.CountDownLatch;
+import org.apache.zookeeper.Watcher;
 
 public class CreateGroup implements Watcher {
 
