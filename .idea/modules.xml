@@ -6,6 +6,11 @@
       <module fileurl="file://$PROJECT_DIR$/dubbo-interfenct/dubbo-interfenct.iml" filepath="$PROJECT_DIR$/dubbo-interfenct/dubbo-interfenct.iml" />
       <module fileurl="file://$PROJECT_DIR$/dubbo-parent.iml" filepath="$PROJECT_DIR$/dubbo-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/dubbo-service/dubbo-service.iml" filepath="$PROJECT_DIR$/dubbo-service/dubbo-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-controller/src/main/main.iml" filepath="$PROJECT_DIR$/dubbo-controller/src/main/main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zookeeper/src/main/main1.iml" filepath="$PROJECT_DIR$/zookeeper/src/main/main1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-service/src/main/main2.iml" filepath="$PROJECT_DIR$/dubbo-service/src/main/main2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-interfenct/src/main/main3.iml" filepath="$PROJECT_DIR$/dubbo-interfenct/src/main/main3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zookeeper/src/test/test.iml" filepath="$PROJECT_DIR$/zookeeper/src/test/test.iml" />
       <module fileurl="file://$PROJECT_DIR$/zookeeper/zookeeper.iml" filepath="$PROJECT_DIR$/zookeeper/zookeeper.iml" />
     </modules>
   </component>
