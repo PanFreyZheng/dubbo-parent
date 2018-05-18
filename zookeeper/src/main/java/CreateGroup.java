@@ -41,7 +41,7 @@ public class CreateGroup implements Watcher {
         String path = "/" +groupName;
         String createPath = null;
         try{
-            createPath = zk.create(path,null, ZooDefs.Ids.OPEN_ACL_UNSAFE/*允许任何客户端对znode进行读写*/,CreateMode.PERSISTENT_SEQUENTIAL/*持久化znode*/);
+            createPath = zk.create(path,null, ZooDefs.Ids.OPEN_ACL_UNSAFE/*允许任何客户端对znode进行读写*/,CreateMode.PERSISTENT/*持久化znode*/);
         }catch (KeeperException.NodeExistsException e){
             System.out.println(e.getMessage());
         }

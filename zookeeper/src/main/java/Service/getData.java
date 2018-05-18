@@ -35,34 +35,34 @@ public class getData
 
             System.out.println("创建连接成功!");
 
-            Thread.currentThread().sleep(10001);
+            Thread.currentThread().sleep(2000);
 
             System.out.println("==========================");
             // 创建第一个子目录节点
             System.out.println("start to create /IDEA_TEST");
             zk.create("/IDEA_TEST","我是/IDEA_TEST".getBytes("utf-8"), ZooDefs.Ids.OPEN_ACL_UNSAFE, CreateMode.PERSISTENT);
             System.out.println("创建/IDEA_TEST成功");
-            Thread.currentThread().sleep(10001);
+            Thread.currentThread().sleep(2000);
 
             System.out.println("==========================");
             // 创建第一个子目录节点
             System.out.println("start to create /IDEA_TEST/childPath1");
             zk.create("/IDEA_TEST/childPath1","我是第一个子目录/IDEA_TEST/childPath1".getBytes("utf-8"), ZooDefs.Ids.OPEN_ACL_UNSAFE, CreateMode.PERSISTENT);
             System.out.println("创建/IDEA_TEST/childPath1成功");
-            Thread.currentThread().sleep(10001);
+            Thread.currentThread().sleep(2000);
 
             System.out.println("======================");
             System.out.println("start to create /IDEA_TEST/childPath2");
             zk.create("/IDEA_TEST/childPath2","我是第一个子目录/IDEA_TEST/childPath2".getBytes("utf-8"), ZooDefs.Ids.OPEN_ACL_UNSAFE, CreateMode.PERSISTENT);
             System.out.println("创建/IDEA_TEST/childPath2成功");
-            Thread.currentThread().sleep(10001);
+            Thread.currentThread().sleep(2000);
 
             System.out.println("======================");
             // 获取第二个子节点数据
             System.out.println("开始获取第二个子目录节点的节点数据...");
             System.out.println(new String(zk.getData("/IDEA_TEST/childPath1",true,null)));
             System.out.println("第一个节点获取成功");
-            Thread.currentThread().sleep(10001);
+            Thread.currentThread().sleep(2000);
 
             System.out.println("======================");
             // 获取第二个子节点数据
@@ -70,7 +70,7 @@ public class getData
             // 设置编码格式utf-8
             System.out.println(new String(zk.getData("/IDEA_TEST/childPath2",true,null),"utf-8"));
             System.out.println("第二个节点获取成功");
-            Thread.currentThread().sleep(10001);
+            Thread.currentThread().sleep(2000);
 
             System.out.println("===========================");
             System.out.println("开始修改/IDEA_TEST/childPath1的数据");

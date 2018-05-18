@@ -21,9 +21,7 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-beans:4.1.6.RELEASE" />
           <element id="library" level="project" name="Maven: commons-logging:commons-logging:1.2" />
           <element id="library" level="project" name="Maven: org.aspectj:aspectjweaver:1.8.5" />
-          <element id="archive" name="dubbo-interfenct-1.0-SNAPSHOT.jar">
-            <element id="module-output" name="dubbo-interfenct" />
-          </element>
+          <element id="library" level="project" name="Maven: com:dubbo-interfenct:1.0-SNAPSHOT" />
           <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:4.2.5.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-expression:4.2.5.RELEASE" />
           <element id="library" level="project" name="Maven: com.alibaba:dubbo:2.5.3" />
