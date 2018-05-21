@@ -17,7 +17,7 @@ public class CreateGroupTest {
 
     private static String groupName = "idea";
 
-    private CreateGroup createGroup = null;
+    private CreateGroupTest createGroup = null;
 
     /**
      * init
