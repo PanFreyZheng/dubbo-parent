@@ -42,18 +42,15 @@
             <version>1.7.6</version>
         </dependency>
         <!-- **************************** /日志 依赖 **************************** -->
-<<<<<<< HEAD
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>dubbo</artifactId>
             <version>2.6.1</version>
-=======
-
+        </dependency>
         <dependency>
             <groupId>org.apache.zookeeper</groupId>
             <artifactId>zookeeper</artifactId>
             <version>3.4.6</version>
->>>>>>> 0ff6afead09b85fa0851470cf0e474722866e0e4
         </dependency>
     </dependencies>
 
